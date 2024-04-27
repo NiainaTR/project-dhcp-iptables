@@ -8,7 +8,6 @@
 </head>
 <body>
     <?php foreach($subnet as $d):?>
-        <?=$d['nom'] ?>
         <?=$d['subnet'] ?>
         <?=$d['netmask'] ?>
     <?php endforeach; ?>
